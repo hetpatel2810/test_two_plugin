@@ -31,13 +31,31 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".env" />
+    <Content Include="requirements.txt" />
     <Content Include="startup_for_shell.ps1" />
+    <Content Include="translated_code\config.yaml" />
+    <Content Include="translated_code\functions\my-function-one.yaml" />
+    <Content Include="translated_code\functions\my-function-three.yaml" />
+    <Content Include="translated_code\functions\my-function-two.yaml" />
+    <Content Include="translated_code\LICENSE" />
+    <Content Include="translated_code\package.yaml" />
+    <Content Include="translated_code\README.md" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="build\" />
+    <Folder Include="build\lib\" />
+    <Folder Include="build\lib\pollination\" />
+    <Folder Include="build\lib\pollination\test_two_plugin\" />
     <Folder Include="pollination\" />
     <Folder Include="pollination\test_two_plugin\" />
+    <Folder Include="translated_code\" />
+    <Folder Include="translated_code\functions\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="build\lib\pollination\test_two_plugin\function_one.py" />
+    <Compile Include="build\lib\pollination\test_two_plugin\function_three.py" />
+    <Compile Include="build\lib\pollination\test_two_plugin\function_two.py" />
+    <Compile Include="build\lib\pollination\test_two_plugin\__init__.py" />
     <Compile Include="pollination\test_two_plugin\function_one.py" />
     <Compile Include="pollination\test_two_plugin\function_three.py" />
     <Compile Include="pollination\test_two_plugin\function_two.py" />

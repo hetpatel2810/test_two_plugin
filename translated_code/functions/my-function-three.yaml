@@ -1,0 +1,26 @@
+type: Function
+annotations: {}
+inputs:
+- type: FunctionFileInput
+  annotations: {}
+  name: input-file-path
+  description: Path to input text file.
+  default: null
+  alias: []
+  required: true
+  spec: null
+  path: function_three_folder\input.txt
+  extensions: null
+outputs:
+- type: FunctionFileOutput
+  annotations: {}
+  name: output-file-path
+  description: Path to output text file.
+  path: function_three_folder\output.txt
+  required: true
+name: my-function-three
+description: ' My Function Three '
+command: '@((Get-Content function_three_folder\input.txt),"Message from Function 3")|Set-Content
+  function_three_folder\output.txt'
+language: python
+source: null
