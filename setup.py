@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import setuptools;
 
-with open("requirements_test_one_plugin.txt") as f:
+with open("requirements.txt") as f:
     requirements = f.read().splitlines();
     requirements = [req.replace("==", ">=") for req in requirements];
 
@@ -15,16 +15,16 @@ setuptools.setup(
         include=["pollination.*"], exclude=["tests", ".github"]
     ),
     install_requires=requirements,
-    url="https://github.com/pollination",  # will be translated to home
+    url="https://github.com/hetpatel2810/test_two_plugin",  # will be translated to home
     project_urls={
         "docker": "https://mcr.microsoft.com/en-us/artifact/mar/powershell/tags",
     },
-    description="test-one-plugin-description",  # will be used as package description
-    long_description="test-one-plugin-long-description",  # will be translated to ReadMe content on Pollination
+    description="test-two-plugin-description-short",  # will be used as package description
+    long_description="test-two-plugin-long-description-long",  # will be translated to ReadMe content on Pollination
     long_description_content_type="text/markdown",
     maintainer="hetpatel2810",  # Package maintainers. For multiple maintainers use comma
     maintainer_email="hetpatel2810@gmail.com",
-    keywords="test one plugin",  # will be used as keywords
+    keywords="test-two-plugin",  # will be used as keywords
     zip_safe=False,
     license="MIT",  # <-- This is the correct place for the license name
     classifiers=[

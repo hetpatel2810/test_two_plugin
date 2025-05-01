@@ -1,0 +1,23 @@
+type: MetaData
+annotations: {}
+name: test-two-plugin
+tag: 0.1.0
+app_version: null
+keywords:
+- test-two-plugin
+maintainers:
+- type: Maintainer
+  annotations: {}
+  name: hetpatel2810
+  email: hetpatel2810@gmail.com
+home: https://github.com/hetpatel2810/test_two_plugin
+sources:
+- https://mcr.microsoft.com/en-us/artifact/mar/powershell/tags
+icon: null
+deprecated: null
+description: test-two-plugin-description-short
+license:
+  type: License
+  annotations: {}
+  name: MIT
+  url: null

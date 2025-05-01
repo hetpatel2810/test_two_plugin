@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pollination-test-two-plugin
+Version: 0.1.0
+Summary: test-two-plugin-description-short
+Home-page: https://github.com/hetpatel2810/test_two_plugin
+Author: hetpatel2810
+Author-email: hetpatel2810@gmail.com
+Maintainer: hetpatel2810
+Maintainer-email: hetpatel2810@gmail.com
+License: MIT
+Project-URL: docker, https://mcr.microsoft.com/en-us/artifact/mar/powershell/tags
+Keywords: test-two-plugin
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+test-two-plugin-long-description-long
+

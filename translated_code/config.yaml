@@ -1,0 +1,9 @@
+type: PluginConfig
+annotations: {}
+docker:
+  type: DockerConfig
+  annotations: {}
+  image: mcr.microsoft.com/powershell:alpine-3.20
+  registry: https://mcr.microsoft.com
+  workdir: /home
+local: null
